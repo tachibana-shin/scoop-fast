@@ -15,13 +15,18 @@ scoop install https://github.com/tachibana-shin/scoop-fast/releases/download/v0.
 > `scoopf search` only searches for packages in official `buckets` and authenticated custom `buckets`
 
 **`scoopf search` faster ~x11.74**
-
 ![image](https://github.com/user-attachments/assets/9ec599ac-110a-4046-9c58-202dbe643eae)
 
 ### `scoop update` vs `scoopf upbucket`
 
 **`scoopf upbucket` faster ~43%**
 ![image](https://github.com/user-attachments/assets/e338f84c-e29d-4c9f-b985-b56644afd345)
+
+### `scoop add` vs `scoopf add`
+
+**`scoopf add` faster ~4x.02**
+![image](https://github.com/user-attachments/assets/6c43f14f-7781-4909-8837-609fcb0f6da3)
+
 
 
 ## To be on
