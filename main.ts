@@ -120,7 +120,7 @@ function search(
     filters.push("Metadata/DuplicateOf eq null")
   }
 
-  return fetch(`${Deno.env.get("API_SEARCH")}/search?api-version=2020-06-30`, {
+  return fetch(`https://scoopsearch.search.windows.net/indexes/apps/docs/search?api-version=2020-06-30`, {
     method: "POST",
     body: JSON.stringify({
       count: true,
