@@ -52,5 +52,7 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v0.1.14
         with:
-          files: ["scoopf.exe", "scoopf.json"]
+          files: |
+            scoopf.exe
+            scoopf.json
           body: ${{ steps.changelog.outputs.changelog }}
