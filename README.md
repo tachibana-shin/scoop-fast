@@ -5,7 +5,7 @@ This package is a wrapper to speed up `scoop` commands
 ## Install
 ```cmd
 scoop install git
-scoop install https://github.com/tachibana-shin/scoop-fast/releases/download/v0.0.4/scoopf.json
+scoop install https://github.com/tachibana-shin/scoop-fast/releases/download/v0.0.5/scoopf.json
 ```
 
 ## Preview
