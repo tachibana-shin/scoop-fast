@@ -22,7 +22,7 @@ jobs:
       - name: Lint
         run: deno lint
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     needs: ci
     steps:
       - name: Checkout 🛎️
@@ -52,5 +52,5 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v0.1.14
         with:
-          files: scoopf.exe
+          files: ["scoopf.exe", "scoopf.json"]
           body: ${{ steps.changelog.outputs.changelog }}
