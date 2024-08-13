@@ -18,6 +18,11 @@ scoop install https://github.com/tachibana-shin/scoop-fast/releases/download/v0.
 
 ![image](https://github.com/user-attachments/assets/9ec599ac-110a-4046-9c58-202dbe643eae)
 
+### `scoop update` vs `scoopf upbucket`
+
+**`scoopf upbucket` faster ~43%**
+![image](https://github.com/user-attachments/assets/e338f84c-e29d-4c9f-b985-b56644afd345)
+
 
 ## To be on
 
