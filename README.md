@@ -2,6 +2,20 @@
 
 This package is a wrapper to speed up `scoop` commands
 
+## Install
+```cmd
+scoop install git
+scoop install https://github.com/tachibana-shin/scoop-fast/releases/download/v0.0.4/scoopf.json
+```
+
+## Preview
+`scoop search vscode` vs `scoopf search vscode`
+> [!IMPORTANT]
+> `scoopf search` only searches for packages in official `buckets` and authenticated custom `buckets`
+
+![image](https://github.com/user-attachments/assets/9ec599ac-110a-4046-9c58-202dbe643eae)
+
+
 ## To be on
 
 - [ ] `alias` - Manage scoop aliases
