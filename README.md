@@ -9,9 +9,12 @@ scoop install https://github.com/tachibana-shin/scoop-fast/releases/download/v0.
 ```
 
 ## Preview
-`scoop search vscode` vs `scoopf search vscode`
+
+### `scoop search vscode` vs `scoopf search vscode`
 > [!IMPORTANT]
 > `scoopf search` only searches for packages in official `buckets` and authenticated custom `buckets`
+
+**`scoopf search` faster ~x11.74**
 
 ![image](https://github.com/user-attachments/assets/9ec599ac-110a-4046-9c58-202dbe643eae)
 
