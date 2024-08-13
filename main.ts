@@ -8,11 +8,13 @@ import relativeTime from "dayjs/plugin/relativeTime.js"
 import "@std/dotenv/load"
 
 import deno from "./deno.json" with { type: "json" }
+import pkg from "./package.json" with { type: "json" }
 
 import { getScoopExec } from "./logic/get-scoop-exec.ts"
 import { updateBuckets } from "./logic/update-buckets.ts"
 
-const { package_name, description, version } = deno
+const { package_name, description } = deno
+const { version } = pkg
 
 dayjs.extend(relativeTime)
 
